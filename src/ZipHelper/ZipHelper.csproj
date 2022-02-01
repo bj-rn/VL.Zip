@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="copy /Y $(SolutionDir)\ZipHelper\bin\$(ConfigurationName)\net472\ZipHelper.dll $(SolutionDir)\..\lib\net472&#xD;&#xA;:END" />
+  </Target>
+
+</Project>

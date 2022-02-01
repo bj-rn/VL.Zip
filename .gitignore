@@ -1,0 +1,40 @@
+# Ignore Pattern 
+# more examples
+# https://github.com/x3ro/gitignore
+
+
+# VVVV
+.vl*/
+
+#Visual Studio files
+# =========================
+*.[Oo]bj
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+ipch/
+obj/
+#[Bb]in
+[Bb]uild
+[Dd]ebug*/
+[Rr]elease*/
+[Dd]ynamic*/
+Ankh.NoLoad
+.vs*/
+
